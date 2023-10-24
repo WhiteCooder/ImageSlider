@@ -1,18 +1,20 @@
 .r_logo-container0 {
-                            animation: track 60s linear forwards infinite;
-                            min-width: calc(560px * 5) !important;
-                        }
-                        @media screen and (max-width: 479px) {
-                            .r_logo-container0 {
-                                /*animation:track 50s linear infinite*/
-                            }
-                        }
-                        @keyframes track {
-                            0% {
-                                transform: translateX(0);
-                            }
-                            100% {
-                                /*transform:translateX(calc(-560px * 5))*/
-                                transform: translateX(-100%);
-                            }
-                        }
+              animation: track 60s linear forwards infinite;
+              min-width: calc(560px * 5) !important;
+            }
+
+            @media screen and (max-width: 479px) {
+              .r_logo-container0 {
+                /*animation:track 50s linear infinite*/
+              }
+            }
+
+            @keyframes track {
+              0% {
+                transform: translateX(0);
+              }
+              100% {
+                /*transform:translateX(calc(-560px * 5))*/
+                transform: translateX(-100%);
+              }
+            }
